@@ -2,7 +2,7 @@
 
 ## Запуск
 
-Для запуска скачайте архив NNLM моделью с [TF-Hub](https://tfhub.dev/google/nnlm-en-dim128/2?tf-hub-format=compressed) и распакуйте его в папку `model` в корне проекта. Далее запустите данную команду в терминале в директории проекта:
+Для запуска скачайте архив NNLM с [TF-Hub](https://tfhub.dev/google/nnlm-en-dim128/2?tf-hub-format=compressed) и распакуйте его в папку `model` в корне проекта. Далее запустите данную команду в терминале в директории проекта:
 ```
 docker-compose up
 ```
