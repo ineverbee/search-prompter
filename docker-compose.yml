@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  searchprompter:
+    image: searchprompter
+    build:
+      context: .
+      dockerfile: ./Dockerfile.golang
+    depends_on:
+      - pyapp
+  pyapp:
+    image: pyapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile.python
+    ports:
+      - 80:80
